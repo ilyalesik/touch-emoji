@@ -1,1 +1,1 @@
-# Emoji Clipboard (Touch Bar) app 👆
+# Emoji Clipboard (Touch Bar) app
