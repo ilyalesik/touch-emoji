@@ -28,7 +28,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSTouchBarDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         
         // set the frequently used emojis:
-        Emojis.arrayEmojis = Emojis.getFrequentlyUsedEmojis()
+        Emojis.arrayEmojis = Emojis.getAllEmojis()
         
         // add notification for App change event
         let notificationCenter = NSWorkspace.shared().notificationCenter
@@ -41,7 +41,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSTouchBarDelegate {
         fileWatcher.watch { changeEvents in
             for _ in changeEvents {
                 // update array containing recently used emojis:
-                Emojis.arrayEmojis = Emojis.getFrequentlyUsedEmojis()
+                Emojis.arrayEmojis = Emojis.getAllEmojis()
                 
                 // reload the data of the Touch Bar:
                 self.touchBar.scrubber.reloadData()

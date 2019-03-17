@@ -41,7 +41,7 @@ class Scrubber: NSCustomTouchBarItem, NSScrubberDelegate, NSScrubberDataSource, 
         
         // if the array is empty, get frequently used emojis:
         if(Emojis.arrayEmojis.count == 0) {
-            Emojis.arrayEmojis = Emojis.getFrequentlyUsedEmojis()
+            Emojis.arrayEmojis = Emojis.getAllEmojis()
         }
         
         let itemView = scrubber.makeItem(withIdentifier: self.itemViewIdentifier,
