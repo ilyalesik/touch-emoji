@@ -85,16 +85,14 @@ struct Emojis {
     }
     
     static func getAllEmojis() -> [String] {
-        return allEmojis;
-        /*var result = [String](getFrequentlyUsedEmojis());
+        var result = [String](getFrequentlyUsedEmojis());
         
-        for i in allEmojis {
-            let c = String(UnicodeScalar(i) ?? "-");
+        for c in allEmojis {
             if (!result.contains(c)) {
                 result.append(c);
             }
         }
         
-        return result;*/
+        return result;
     }
 }
