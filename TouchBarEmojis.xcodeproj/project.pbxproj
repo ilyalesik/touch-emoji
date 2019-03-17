@@ -139,7 +139,7 @@
 				TargetAttributes = {
 					12FBD11B1F064CFA00E2F644 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = QJK9HL4CAA;
+						DevelopmentTeam = 5R6C4GRTSX;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -304,7 +304,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QJK9HL4CAA;
+				DEVELOPMENT_TEAM = 5R6C4GRTSX;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
@@ -329,7 +329,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QJK9HL4CAA;
+				DEVELOPMENT_TEAM = 5R6C4GRTSX;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",

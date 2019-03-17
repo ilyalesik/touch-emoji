@@ -67,8 +67,10 @@ class Scrubber: NSCustomTouchBarItem, NSScrubberDelegate, NSScrubberDataSource, 
         // get the emoji that has been selected:
         let emojiToType = Emojis.arrayEmojis[index]
         
-        // type the emoji:
-        KeyEvent.typeEmoji(emoji: emojiToType)
+        let pasteboard = NSPasteboard.general()
+        pasteboard.declareTypes([NSPasteboardTypeString], owner: nil)
+        pasteboard.setString(emojiToType, forType: NSPasteboardTypeString)
+        
         
         // deselect the selected emoji:
         scrubber.selectedIndex = -1
