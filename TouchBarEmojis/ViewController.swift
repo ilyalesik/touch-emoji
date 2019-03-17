@@ -83,11 +83,6 @@ class ViewController: NSViewController, NSTableViewDataSource, NSTableViewDelega
         self.appsTable.dataSource = self
         self.appsTable.reloadData()
         
-        // blue link to GitHub:
-        let blueLinkTitle = linkButton.title
-        linkButton.attributedTitle = NSAttributedString(string: blueLinkTitle, attributes: [ NSForegroundColorAttributeName : NSColor.blue, NSUnderlineStyleAttributeName : NSUnderlineStyle.styleSingle.rawValue, NSFontAttributeName: NSFont.systemFont(ofSize: 13)])
-        
-        
         
         // check if the app has an update:
         checkForUpdate()
