@@ -35,7 +35,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSTouchBarDelegate {
         notificationCenter.addObserver(self, selector: #selector(AppDelegate.currentAppChanged), name: NSNotification.Name.NSWorkspaceDidActivateApplication, object: nil)
         
         // we show the permanent emoji Touch Bar:
-        NSTouchBar.presentSystemModalFunctionBar(touchBar.systemModalTouchBar, systemTrayItemIdentifier: touchBar.emojiSystemModal.rawValue)
+        NSTouchBar.presentSystemModalFunctionBar(touchBar.systemModalTouchBar, systemTrayItemIdentifier: touchBar.emojiSystemModal)
 
         // in case of a preferences files change:
         fileWatcher.watch { changeEvents in
@@ -80,7 +80,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSTouchBarDelegate {
                         if #available(OSX 10.14, *) {
                             NSTouchBar.presentSystemModalTouchBar(touchBar.systemModalTouchBar, systemTrayItemIdentifier: touchBar.emojiSystemModal)
                         } else {
-                            NSTouchBar.presentSystemModalFunctionBar(touchBar.systemModalTouchBar, systemTrayItemIdentifier: touchBar.emojiSystemModal.rawValue)
+                            NSTouchBar.presentSystemModalFunctionBar(touchBar.systemModalTouchBar, systemTrayItemIdentifier: touchBar.emojiSystemModal)
                         }
                     } else {
                         // if not in the list, hide the permanent emoji bar:

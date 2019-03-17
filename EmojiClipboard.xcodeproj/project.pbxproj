@@ -46,7 +46,7 @@
 		12FBD1261F064CFA00E2F644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12FBD1281F064CFA00E2F644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12FBD12F1F064DEE00E2F644 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
-		12FBD1311F064E2E00E2F644 /* TouchMojiPrototype-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchMojiPrototype-Bridging-Header.h"; sourceTree = "<group>"; };
+		12FBD1311F064E2E00E2F644 /* TouchBarPrivateApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBarPrivateApi.h; sourceTree = "<group>"; };
 		12FBD1361F06769700E2F644 /* Scrubber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scrubber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +92,7 @@
 				12FBD1231F064CFA00E2F644 /* Assets.xcassets */,
 				12FBD1251F064CFA00E2F644 /* Main.storyboard */,
 				12FBD1281F064CFA00E2F644 /* Info.plist */,
-				12FBD1311F064E2E00E2F644 /* TouchMojiPrototype-Bridging-Header.h */,
+				12FBD1311F064E2E00E2F644 /* TouchBarPrivateApi.h */,
 				12E5A4CF1F0ED58300ACD0D0 /* SwiftFSWatcher.swift */,
 			);
 			path = EmojiClipboard;
@@ -316,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lm.a.EmojiClipboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "EmojiClipboard/TouchMojiPrototype-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = EmojiClipboard/TouchBarPrivateApi.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -341,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lm.a.EmojiClipboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "EmojiClipboard/TouchMojiPrototype-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = EmojiClipboard/TouchBarPrivateApi.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
