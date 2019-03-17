@@ -44,25 +44,10 @@ class TouchBarController: NSObject, NSTouchBarDelegate {
             
             return scrubberItem
             
-        } else if(identifier == emojiButtonIdentifier) {
-            // setting up the emoji Button:
-            let emojiButton = NSCustomTouchBarItem(identifier: emojiButtonIdentifier)
-            emojiButton.view = NSButton(title: "Emojis", target: self, action: #selector(self.emojiButtonTapped))
-            
-            return emojiButton
         } else {
             
             return nil
         }
-    }
-    
-    func emojiButtonTapped(_ sender: Any) {
-        
-        // display the Emoji Viewer:
-        KeyEvent.openEmojiViewer()
-
-    }
-    
-    
+    }    
 
 }
