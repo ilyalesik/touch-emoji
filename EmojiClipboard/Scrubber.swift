@@ -63,14 +63,13 @@ class Scrubber: NSCustomTouchBarItem, NSScrubberDelegate, NSScrubberDataSource, 
     }
 
     func scrubber(_ scrubber: NSScrubber, didSelectItemAt index: Int) {
+        // check permissions:
+        AXIsProcessTrustedWithOptions([kAXTrustedCheckOptionPrompt.takeRetainedValue() as NSString: true] as NSDictionary)
         
         // get the emoji that has been selected:
         let emojiToType = Emojis.arrayEmojis[index]
         
-        let pasteboard = NSPasteboard.general()
-        pasteboard.declareTypes([NSPasteboardTypeString], owner: nil)
-        pasteboard.setString(emojiToType, forType: NSPasteboardTypeString)
-        
+        KeyEvent.typeEmoji(emoji: emojiToType)
         
         // deselect the selected emoji:
         scrubber.selectedIndex = -1

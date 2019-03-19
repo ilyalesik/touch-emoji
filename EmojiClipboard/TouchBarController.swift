@@ -7,8 +7,21 @@
 
 import Foundation
 
+extension NSTouchBarItem.Identifier {
+    static let controlStripItem = NSTouchBarItem.Identifier("com.toxblh.mtmr.controlStrip")
+}
+
 @available(OSX 10.12.2, *)
 class TouchBarController: NSObject, NSTouchBarDelegate {
+    
+    var showControlStripState: Bool {
+        get {
+            return true
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: "com.toxblh.mtmr.settings.showControlStrip")
+        }
+    }
     
     // the identifiers for the Touch Bar modal and items:
     let emojiSystemModal = NSTouchBarItemIdentifier("in.lor.EmojiSystemModal")
@@ -48,6 +61,27 @@ class TouchBarController: NSObject, NSTouchBarDelegate {
             
             return nil
         }
-    }    
+    }
+    
+    static let shared = TouchBarController()
+    
+    var touchBar = NSTouchBar()
+    
+    func setupControlStripPresence() {
+        DFRSystemModalShowsCloseBoxWhenFrontMost(false)
+        let item = NSCustomTouchBarItem(identifier: .controlStripItem)
+        item.view = NSButton(image: #imageLiteral(resourceName: "Strip"), target: self, action: #selector(presentTouchBar))
+        NSTouchBarItem.addSystemTrayItem(item)
+        DFRElementSetControlStripPresenceForIdentifier(.controlStripItem, true)
+    }
+    
+    func updateControlStripPresence() {
+        DFRElementSetControlStripPresenceForIdentifier(.controlStripItem, true)
+    }
+    
+    @objc private func presentTouchBar() {
+            updateControlStripPresence()
+            presentSystemModal(self.systemModalTouchBar, systemTrayItemIdentifier: .controlStripItem)
+    }
 
 }

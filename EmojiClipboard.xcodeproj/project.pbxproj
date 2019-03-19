@@ -18,6 +18,7 @@
 		12FBD1241F064CFA00E2F644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FBD1231F064CFA00E2F644 /* Assets.xcassets */; };
 		12FBD1271F064CFA00E2F644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FBD1251F064CFA00E2F644 /* Main.storyboard */; };
 		12FBD1371F06769700E2F644 /* Scrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBD1361F06769700E2F644 /* Scrubber.swift */; };
+		3F69684D223EB6DB00A7021E /* SupportNSTouchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69684C223EB6DB00A7021E /* SupportNSTouchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,7 @@
 		12FBD12F1F064DEE00E2F644 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
 		12FBD1311F064E2E00E2F644 /* TouchBarPrivateApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBarPrivateApi.h; sourceTree = "<group>"; };
 		12FBD1361F06769700E2F644 /* Scrubber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scrubber.swift; sourceTree = "<group>"; };
+		3F69684C223EB6DB00A7021E /* SupportNSTouchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportNSTouchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		12FBD11E1F064CFA00E2F644 /* EmojiClipboard */ = {
 			isa = PBXGroup;
 			children = (
+				3F69684C223EB6DB00A7021E /* SupportNSTouchBar.swift */,
 				12FBD11F1F064CFA00E2F644 /* AppDelegate.swift */,
 				12E5A4D11F0FCDCA00ACD0D0 /* Emojis.swift */,
 				12E5A4C91F0EB0C600ACD0D0 /* TouchBarController.swift */,
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FBD1221F064CFA00E2F644 /* ViewController.swift in Sources */,
+				3F69684D223EB6DB00A7021E /* SupportNSTouchBar.swift in Sources */,
 				12E5A4CA1F0EB0C600ACD0D0 /* TouchBarController.swift in Sources */,
 				12BC8E701F0E877E007ED8C5 /* KeyEvent.swift in Sources */,
 				12754FC11F0B9BE0006153C2 /* WindowController.swift in Sources */,
@@ -312,7 +316,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/EmojiClipboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = lm.a.EmojiClipboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -337,7 +341,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/EmojiClipboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = lm.a.EmojiClipboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

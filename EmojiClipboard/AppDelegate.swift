@@ -9,7 +9,7 @@ import Cocoa
 
 @available(OSX 10.12.2, *)
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate, NSTouchBarDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate {
     
     // dic array containing the list of apps which should have the permanent emoji bar:
     static var emojisForApp: [[String: String]] = []
@@ -26,13 +26,10 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSTouchBarDelegate {
     
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        TouchBarController.shared.setupControlStripPresence()
         
         // set the frequently used emojis:
         Emojis.arrayEmojis = Emojis.getAllEmojis()
-        
-        // add notification for App change event
-        let notificationCenter = NSWorkspace.shared().notificationCenter
-        notificationCenter.addObserver(self, selector: #selector(AppDelegate.currentAppChanged), name: NSNotification.Name.NSWorkspaceDidActivateApplication, object: nil)
         
         // we show the permanent emoji Touch Bar:
         NSTouchBar.presentSystemModalFunctionBar(touchBar.systemModalTouchBar, systemTrayItemIdentifier: touchBar.emojiSystemModal)
