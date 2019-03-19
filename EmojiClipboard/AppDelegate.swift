@@ -14,9 +14,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // dic array containing the list of apps which should have the permanent emoji bar:
     static var emojisForApp: [[String: String]] = []
     
-    // array of path for default apps:
-    static let defaultApps = ["/Applications/Google Chrome.app","/Applications/Messages.app","/Applications/Notes.app","/Applications/Safari.app","/Applications/TextEdit.app","/Applications/Adobe Photoshop CC 2017/Adobe Photoshop CC 2017.app","/Applications/Skype.app","/Applications/GitHub.app","/Applications/Slack.app","/Applications/Twitter.app","/Applications/WhatsApp.app","/Applications/Firefox.app"]
-    
     // the Touch Bar
     let touchBar = TouchBarController()
     
@@ -54,49 +51,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // we close the app if the window gets closed:
         return true
     }
-
-    func currentAppChanged() {
-        // if we get the app changed event
-        
-        // get the list of active apps:
-        let arrayActiveApps = NSWorkspace.shared().runningApplications
-        for oneApp in arrayActiveApps {
-            
-            // for each one, we check if it's active:
-            if(oneApp.isActive) {
-                
-                // get the bundle id of the active app:
-                if let bundleIdentifier = oneApp.bundleIdentifier {
-                    
-                    // compare it to the list of apps that should have the permanent emoji bar:
-                    let bundles = AppDelegate.emojisForApp.map({$0["bundle"]!})
-                    
-                    // if the current app is in the list, or if it's our own app:
-                    if (bundles.contains(bundleIdentifier) || oneApp.bundleIdentifier == Bundle.main.bundleIdentifier) {
-                        // show the permanent emoji bar:
-                        if #available(OSX 10.14, *) {
-                            NSTouchBar.presentSystemModalTouchBar(touchBar.systemModalTouchBar, systemTrayItemIdentifier: touchBar.emojiSystemModal)
-                        } else {
-                            NSTouchBar.presentSystemModalFunctionBar(touchBar.systemModalTouchBar, systemTrayItemIdentifier: touchBar.emojiSystemModal)
-                        }
-                    } else {
-                        // if not in the list, hide the permanent emoji bar:
-                        // show the permanent emoji bar:
-                        if #available(OSX 10.14, *) {
-                            NSTouchBar.dismissSystemModalTouchBar(touchBar.systemModalTouchBar)
-                        } else {
-                            NSTouchBar.dismissSystemModalFunctionBar(touchBar.systemModalTouchBar)
-                        }
-                    }
-                }
-                
-                // there should be only one:
-                break
-            }
-        }
-    }
-    
-    
-    
 }
 

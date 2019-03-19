@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		120B28131F0E7446007A3535 /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FBD12F1F064DEE00E2F644 /* DFRFoundation.framework */; };
-		12754FC11F0B9BE0006153C2 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12754FC01F0B9BE0006153C2 /* WindowController.swift */; };
 		12BC8E701F0E877E007ED8C5 /* KeyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC8E6F1F0E877E007ED8C5 /* KeyEvent.swift */; };
 		12E5A4CA1F0EB0C600ACD0D0 /* TouchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5A4C91F0EB0C600ACD0D0 /* TouchBarController.swift */; };
 		12E5A4D01F0ED58300ACD0D0 /* SwiftFSWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5A4CF1F0ED58300ACD0D0 /* SwiftFSWatcher.swift */; };
 		12E5A4D21F0FCDCA00ACD0D0 /* Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5A4D11F0FCDCA00ACD0D0 /* Emojis.swift */; };
 		12FBD1201F064CFA00E2F644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBD11F1F064CFA00E2F644 /* AppDelegate.swift */; };
-		12FBD1221F064CFA00E2F644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBD1211F064CFA00E2F644 /* ViewController.swift */; };
 		12FBD1241F064CFA00E2F644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12FBD1231F064CFA00E2F644 /* Assets.xcassets */; };
 		12FBD1271F064CFA00E2F644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12FBD1251F064CFA00E2F644 /* Main.storyboard */; };
 		12FBD1371F06769700E2F644 /* Scrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBD1361F06769700E2F644 /* Scrubber.swift */; };
@@ -35,14 +33,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		12754FC01F0B9BE0006153C2 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		12BC8E6F1F0E877E007ED8C5 /* KeyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyEvent.swift; sourceTree = "<group>"; };
 		12E5A4C91F0EB0C600ACD0D0 /* TouchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchBarController.swift; sourceTree = "<group>"; };
 		12E5A4CF1F0ED58300ACD0D0 /* SwiftFSWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFSWatcher.swift; sourceTree = "<group>"; };
 		12E5A4D11F0FCDCA00ACD0D0 /* Emojis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emojis.swift; sourceTree = "<group>"; };
 		12FBD11C1F064CFA00E2F644 /* EmojiClipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiClipboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FBD11F1F064CFA00E2F644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12FBD1211F064CFA00E2F644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12FBD1231F064CFA00E2F644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12FBD1261F064CFA00E2F644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12FBD1281F064CFA00E2F644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,8 +84,6 @@
 				12FBD11F1F064CFA00E2F644 /* AppDelegate.swift */,
 				12E5A4D11F0FCDCA00ACD0D0 /* Emojis.swift */,
 				12E5A4C91F0EB0C600ACD0D0 /* TouchBarController.swift */,
-				12FBD1211F064CFA00E2F644 /* ViewController.swift */,
-				12754FC01F0B9BE0006153C2 /* WindowController.swift */,
 				12FBD1361F06769700E2F644 /* Scrubber.swift */,
 				12BC8E6F1F0E877E007ED8C5 /* KeyEvent.swift */,
 				12FBD1231F064CFA00E2F644 /* Assets.xcassets */,
@@ -183,11 +177,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12FBD1221F064CFA00E2F644 /* ViewController.swift in Sources */,
 				3F69684D223EB6DB00A7021E /* SupportNSTouchBar.swift in Sources */,
 				12E5A4CA1F0EB0C600ACD0D0 /* TouchBarController.swift in Sources */,
 				12BC8E701F0E877E007ED8C5 /* KeyEvent.swift in Sources */,
-				12754FC11F0B9BE0006153C2 /* WindowController.swift in Sources */,
 				12FBD1371F06769700E2F644 /* Scrubber.swift in Sources */,
 				12FBD1201F064CFA00E2F644 /* AppDelegate.swift in Sources */,
 				12E5A4D21F0FCDCA00ACD0D0 /* Emojis.swift in Sources */,
