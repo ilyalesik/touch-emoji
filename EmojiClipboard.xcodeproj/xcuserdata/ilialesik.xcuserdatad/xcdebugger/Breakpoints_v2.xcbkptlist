@@ -217,7 +217,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EmojiClipboard/TouchBarController.swift"
-            timestampString = "574722104.1673779"
+            timestampString = "575138643.958627"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -233,7 +233,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EmojiClipboard/TouchBarController.swift"
-            timestampString = "574722104.16743"
+            timestampString = "575138643.9586771"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -249,7 +249,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EmojiClipboard/TouchBarController.swift"
-            timestampString = "574722104.167469"
+            timestampString = "575138643.958714"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "71"
@@ -265,13 +265,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EmojiClipboard/Scrubber.swift"
-            timestampString = "574589885.8610179"
+            timestampString = "575138643.958751"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "scrubber(_:didSelectItemAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -281,13 +281,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EmojiClipboard/TouchBarController.swift"
-            timestampString = "574722104.167534"
+            timestampString = "575138643.959044"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
             endingLineNumber = "29"
             landmarkName = "TouchBarController"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmojiClipboard/TouchBarController.swift"
+            timestampString = "575138643.959082"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "setupControlStripPresence()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
