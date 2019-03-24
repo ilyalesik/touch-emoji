@@ -1,0 +1,16 @@
+PODS:
+  - Smile (2.0.0)
+
+DEPENDENCIES:
+  - Smile
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Smile
+
+SPEC CHECKSUMS:
+  Smile: 21ff6c48e06ecfcee605cca32aedd74d5810e34a
+
+PODFILE CHECKSUM: b6a1b77b7766717de4ebc643045b4e893616b04d
+
+COCOAPODS: 1.6.1

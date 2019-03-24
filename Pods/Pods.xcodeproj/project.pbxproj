@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C0B76B28AFE6CACF1BD82B0A554B185 /* Pods-EmojiClipboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A49389408CE17439F9C5856DDBE02 /* Pods-EmojiClipboard-dummy.m */; };
+		19EFFE9F60DAF15CA701BE02F52836AA /* Smile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 253127A139CDB2D04788C77BFAA27DCB /* Smile-dummy.m */; };
+		20837A7D0F6C23509FE559A8EC6D55A5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C2EE4133FAB9C46B28AD2D5A41E924 /* Utils.swift */; };
+		3118735E0A2E0F18CBAF0AA7869AFD93 /* Smile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3209E7E4E9CA0EF1827E9B0FF1FA80 /* Smile.swift */; };
+		3771A0B10D3D1D86F4FB0D6D4369E848 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E6AE0D20BA3B58BE6E902265C2FDE9 /* Categories.swift */; };
+		48C4AF48F713D1E86D55A7F67C5D971D /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C8D0D706FBEA049726265AF74FF17A /* Sequence.swift */; };
+		6B8BE5CE37359F0362BED1788BD06FE6 /* Smile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A4070FB5289210652DFE0BB41D44ED /* Smile-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A06FBA7BA9E0043D9175EDF9686D3183 /* Pods-EmojiClipboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59EAF77044B1FE9EACF37B60ED25185D /* Pods-EmojiClipboard-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C612319DC72C8360455D1AEFF9B0A6D3 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB3FCD30CB708F3544A1EF00E95A19 /* Emoji.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		581D5CE1A1514D256662B315286F4BBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A72E7E7F56EA48622FE4B2865345F3E;
+			remoteInfo = Smile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B917CBEF381B06F458F952815DC595 /* libPods-EmojiClipboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EmojiClipboard.a"; path = "libPods-EmojiClipboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6A49389408CE17439F9C5856DDBE02 /* Pods-EmojiClipboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmojiClipboard-dummy.m"; sourceTree = "<group>"; };
+		23C8D0D706FBEA049726265AF74FF17A /* Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sequence.swift; path = Sources/Sequence.swift; sourceTree = "<group>"; };
+		253127A139CDB2D04788C77BFAA27DCB /* Smile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Smile-dummy.m"; sourceTree = "<group>"; };
+		3DA450E2965DC42C1B1EED8CE79A8CEC /* libSmile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSmile.a; path = libSmile.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB07DA7FE21D5A3976BEA8DE3681BB8 /* Pods-EmojiClipboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmojiClipboard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4618251F8CD16ED6CF94478B4CA849B8 /* Pods-EmojiClipboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmojiClipboard.debug.xcconfig"; sourceTree = "<group>"; };
+		49C2EE4133FAB9C46B28AD2D5A41E924 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils.swift; sourceTree = "<group>"; };
+		4AAB3FCD30CB708F3544A1EF00E95A19 /* Emoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Emoji.swift; path = Sources/Emoji.swift; sourceTree = "<group>"; };
+		59EAF77044B1FE9EACF37B60ED25185D /* Pods-EmojiClipboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmojiClipboard-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E69BB823947178F022228BE862F5C79 /* Smile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Smile.modulemap; sourceTree = "<group>"; };
+		B8E481CA3D0299541B402E2B40AA95EA /* Pods-EmojiClipboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmojiClipboard.modulemap"; sourceTree = "<group>"; };
+		BA0A8158B264F52497361C122B625C41 /* Pods-EmojiClipboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmojiClipboard-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0E6AE0D20BA3B58BE6E902265C2FDE9 /* Categories.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Categories.swift; path = Sources/Categories.swift; sourceTree = "<group>"; };
+		C5C415AC8D6C8573F8C8F2A6332F7862 /* Smile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Smile.xcconfig; sourceTree = "<group>"; };
+		CB6AA0D0929C5D72E379DD80DF3DD336 /* Pods-EmojiClipboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmojiClipboard.release.xcconfig"; sourceTree = "<group>"; };
+		D1A4070FB5289210652DFE0BB41D44ED /* Smile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smile-umbrella.h"; sourceTree = "<group>"; };
+		D81A12B0ADFE6B7C1171B0EAD4FA1294 /* Smile-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Smile-prefix.pch"; sourceTree = "<group>"; };
+		FD3209E7E4E9CA0EF1827E9B0FF1FA80 /* Smile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Smile.swift; path = Sources/Smile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85739204AA2C8C3C72F72D9B7C541AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC228661C8B3723C6D837579E1BF2D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27AA4384C13B69E2D783994C860AD4CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E69BB823947178F022228BE862F5C79 /* Smile.modulemap */,
+				C5C415AC8D6C8573F8C8F2A6332F7862 /* Smile.xcconfig */,
+				253127A139CDB2D04788C77BFAA27DCB /* Smile-dummy.m */,
+				D81A12B0ADFE6B7C1171B0EAD4FA1294 /* Smile-prefix.pch */,
+				D1A4070FB5289210652DFE0BB41D44ED /* Smile-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Smile";
+			sourceTree = "<group>";
+		};
+		51833D1E284CF5928EDFF6EE63F24811 /* Smile */ = {
+			isa = PBXGroup;
+			children = (
+				C0E6AE0D20BA3B58BE6E902265C2FDE9 /* Categories.swift */,
+				4AAB3FCD30CB708F3544A1EF00E95A19 /* Emoji.swift */,
+				23C8D0D706FBEA049726265AF74FF17A /* Sequence.swift */,
+				FD3209E7E4E9CA0EF1827E9B0FF1FA80 /* Smile.swift */,
+				49C2EE4133FAB9C46B28AD2D5A41E924 /* Utils.swift */,
+				27AA4384C13B69E2D783994C860AD4CB /* Support Files */,
+			);
+			name = Smile;
+			path = Smile;
+			sourceTree = "<group>";
+		};
+		671C06A127E9BC357CEED17232CE18A5 /* Pods-EmojiClipboard */ = {
+			isa = PBXGroup;
+			children = (
+				B8E481CA3D0299541B402E2B40AA95EA /* Pods-EmojiClipboard.modulemap */,
+				3DB07DA7FE21D5A3976BEA8DE3681BB8 /* Pods-EmojiClipboard-acknowledgements.markdown */,
+				BA0A8158B264F52497361C122B625C41 /* Pods-EmojiClipboard-acknowledgements.plist */,
+				0C6A49389408CE17439F9C5856DDBE02 /* Pods-EmojiClipboard-dummy.m */,
+				59EAF77044B1FE9EACF37B60ED25185D /* Pods-EmojiClipboard-umbrella.h */,
+				4618251F8CD16ED6CF94478B4CA849B8 /* Pods-EmojiClipboard.debug.xcconfig */,
+				CB6AA0D0929C5D72E379DD80DF3DD336 /* Pods-EmojiClipboard.release.xcconfig */,
+			);
+			name = "Pods-EmojiClipboard";
+			path = "Target Support Files/Pods-EmojiClipboard";
+			sourceTree = "<group>";
+		};
+		74923983359A5D29AD350C56F07A9E73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51833D1E284CF5928EDFF6EE63F24811 /* Smile */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA53665D72A29E6544C9267D1475998A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				671C06A127E9BC357CEED17232CE18A5 /* Pods-EmojiClipboard */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				74923983359A5D29AD350C56F07A9E73 /* Pods */,
+				F487E93E7C8306DAC7512EBB3D0C26FD /* Products */,
+				BA53665D72A29E6544C9267D1475998A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F487E93E7C8306DAC7512EBB3D0C26FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B917CBEF381B06F458F952815DC595 /* libPods-EmojiClipboard.a */,
+				3DA450E2965DC42C1B1EED8CE79A8CEC /* libSmile.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51D50CCF865E0FBC4FBAE83B6C8876AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8BE5CE37359F0362BED1788BD06FE6 /* Smile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3D6F9D04E7F147EFBBAB22B7C273AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06FBA7BA9E0043D9175EDF9686D3183 /* Pods-EmojiClipboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A72E7E7F56EA48622FE4B2865345F3E /* Smile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C4B4D5D42E910C9C55C06346DE1B32 /* Build configuration list for PBXNativeTarget "Smile" */;
+			buildPhases = (
+				51D50CCF865E0FBC4FBAE83B6C8876AC /* Headers */,
+				66A86341A0CBBE2B11C78CD56F91B98F /* Sources */,
+				CC228661C8B3723C6D837579E1BF2D8B /* Frameworks */,
+				FF50717B9AEF4ACFB3D7210AE2E7CBD9 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smile;
+			productName = Smile;
+			productReference = 3DA450E2965DC42C1B1EED8CE79A8CEC /* libSmile.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AF27AB4AC71D6A5C7ADC09E689392FD4 /* Pods-EmojiClipboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E093A5A2C2FCF466CBE23C191D314572 /* Build configuration list for PBXNativeTarget "Pods-EmojiClipboard" */;
+			buildPhases = (
+				EA3D6F9D04E7F147EFBBAB22B7C273AD /* Headers */,
+				3A95E0E8E7F12C5DC51F93402FDD40B6 /* Sources */,
+				A85739204AA2C8C3C72F72D9B7C541AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37761E9912809A257AA79151EAD2ED5A /* PBXTargetDependency */,
+			);
+			name = "Pods-EmojiClipboard";
+			productName = "Pods-EmojiClipboard";
+			productReference = 02B917CBEF381B06F458F952815DC595 /* libPods-EmojiClipboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F487E93E7C8306DAC7512EBB3D0C26FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF27AB4AC71D6A5C7ADC09E689392FD4 /* Pods-EmojiClipboard */,
+				0A72E7E7F56EA48622FE4B2865345F3E /* Smile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF50717B9AEF4ACFB3D7210AE2E7CBD9 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Smile/Smile.modulemap",
+				"${PODS_ROOT}/Headers/Public/Smile/Smile-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Smile-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Smile/Smile.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Smile/Smile-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A95E0E8E7F12C5DC51F93402FDD40B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0B76B28AFE6CACF1BD82B0A554B185 /* Pods-EmojiClipboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66A86341A0CBBE2B11C78CD56F91B98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3771A0B10D3D1D86F4FB0D6D4369E848 /* Categories.swift in Sources */,
+				C612319DC72C8360455D1AEFF9B0A6D3 /* Emoji.swift in Sources */,
+				48C4AF48F713D1E86D55A7F67C5D971D /* Sequence.swift in Sources */,
+				19EFFE9F60DAF15CA701BE02F52836AA /* Smile-dummy.m in Sources */,
+				3118735E0A2E0F18CBAF0AA7869AFD93 /* Smile.swift in Sources */,
+				20837A7D0F6C23509FE559A8EC6D55A5 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37761E9912809A257AA79151EAD2ED5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Smile;
+			target = 0A72E7E7F56EA48622FE4B2865345F3E /* Smile */;
+			targetProxy = 581D5CE1A1514D256662B315286F4BBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		028F2984CE49ED775A3115DB1C0B4B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C415AC8D6C8573F8C8F2A6332F7862 /* Smile.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Smile/Smile-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = Headers/Public/Smile/Smile.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Smile;
+				PRODUCT_NAME = Smile;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		411E2369C239DEE8E4B6EDB7551D9064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4618251F8CD16ED6CF94478B4CA849B8 /* Pods-EmojiClipboard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmojiClipboard/Pods-EmojiClipboard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84AD58C0BDDA52C171FD48086BBB2D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6AA0D0929C5D72E379DD80DF3DD336 /* Pods-EmojiClipboard.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmojiClipboard/Pods-EmojiClipboard.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B02064D7E8BCDAC9B6D67691989B865B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E8A3F4551FABCE3AA6C332D0A25E460E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C415AC8D6C8573F8C8F2A6332F7862 /* Smile.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Smile/Smile-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = Headers/Public/Smile/Smile.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Smile;
+				PRODUCT_NAME = Smile;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FC05650207F51715AE5AE6EDB1FAE9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC05650207F51715AE5AE6EDB1FAE9C3 /* Debug */,
+				B02064D7E8BCDAC9B6D67691989B865B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C4B4D5D42E910C9C55C06346DE1B32 /* Build configuration list for PBXNativeTarget "Smile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028F2984CE49ED775A3115DB1C0B4B27 /* Debug */,
+				E8A3F4551FABCE3AA6C332D0A25E460E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E093A5A2C2FCF466CBE23C191D314572 /* Build configuration list for PBXNativeTarget "Pods-EmojiClipboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411E2369C239DEE8E4B6EDB7551D9064 /* Debug */,
+				84AD58C0BDDA52C171FD48086BBB2D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

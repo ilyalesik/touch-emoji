@@ -71,7 +71,7 @@ class Scrubber: NSCustomTouchBarItem, NSScrubberDelegate, NSScrubberDataSource, 
     func scrubber(_ scrubber: NSScrubber, didSelectItemAt index: Int) {
         // get the emoji that has been selected:
         let emojiToType = Emojis.arrayEmojis[index]
-        if Smile.isEmoji(character: emojiToType.value) {
+        if emojiToType.type == "item" {
             // check permissions:
             AXIsProcessTrustedWithOptions([kAXTrustedCheckOptionPrompt.takeRetainedValue() as NSString: true] as NSDictionary)
             

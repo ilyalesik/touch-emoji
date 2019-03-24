@@ -1,0 +1,6 @@
+module Pods_EmojiClipboard {
+  umbrella header "Pods-EmojiClipboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
