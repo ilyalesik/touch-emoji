@@ -57,10 +57,20 @@ class TouchBarController: NSObject, NSTouchBarDelegate {
             
             return scrubberItem
             
+        } else if(identifier == emojiButtonIdentifier) {
+            // setting up the emoji Button:
+            let exitButton = NSCustomTouchBarItem(identifier: emojiButtonIdentifier)
+            exitButton.view = NSButton(title: "exit", target: self, action: #selector(self.exitButtonTapped))
+            
+            return exitButton
         } else {
             
             return nil
         }
+    }
+    
+    func exitButtonTapped(_ sender: Any) {
+        NSApplication.shared().terminate(self)
     }
     
     static let shared = TouchBarController()
