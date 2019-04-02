@@ -39,7 +39,7 @@
 		12E5A4C91F0EB0C600ACD0D0 /* TouchBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchBarController.swift; sourceTree = "<group>"; };
 		12E5A4CF1F0ED58300ACD0D0 /* SwiftFSWatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFSWatcher.swift; sourceTree = "<group>"; };
 		12E5A4D11F0FCDCA00ACD0D0 /* Emojis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emojis.swift; sourceTree = "<group>"; };
-		12FBD11C1F064CFA00E2F644 /* EmojiClipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiClipboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FBD11C1F064CFA00E2F644 /* Touch Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touch Emoji.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12FBD11F1F064CFA00E2F644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12FBD1231F064CFA00E2F644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12FBD1261F064CFA00E2F644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		12FBD11D1F064CFA00E2F644 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				12FBD11C1F064CFA00E2F644 /* EmojiClipboard.app */,
+				12FBD11C1F064CFA00E2F644 /* Touch Emoji.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,9 +127,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		12FBD11B1F064CFA00E2F644 /* EmojiClipboard */ = {
+		12FBD11B1F064CFA00E2F644 /* Touch Emoji */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12FBD12B1F064CFA00E2F644 /* Build configuration list for PBXNativeTarget "EmojiClipboard" */;
+			buildConfigurationList = 12FBD12B1F064CFA00E2F644 /* Build configuration list for PBXNativeTarget "Touch Emoji" */;
 			buildPhases = (
 				59E3373F9D9E2CD83B09AAB5 /* [CP] Check Pods Manifest.lock */,
 				12FBD1181F064CFA00E2F644 /* Sources */,
@@ -141,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = EmojiClipboard;
+			name = "Touch Emoji";
 			productName = TouchMojiPrototype;
-			productReference = 12FBD11C1F064CFA00E2F644 /* EmojiClipboard.app */;
+			productReference = 12FBD11C1F064CFA00E2F644 /* Touch Emoji.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 12FBD1171F064CFA00E2F644 /* Build configuration list for PBXProject "EmojiClipboard" */;
+			buildConfigurationList = 12FBD1171F064CFA00E2F644 /* Build configuration list for PBXProject "Touch Emoji" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -177,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12FBD11B1F064CFA00E2F644 /* EmojiClipboard */,
+				12FBD11B1F064CFA00E2F644 /* Touch Emoji */,
 			);
 		};
 /* End PBXProject section */
@@ -358,7 +358,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/EmojiClipboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = lm.a.EmojiClipboard;
+				PRODUCT_BUNDLE_IDENTIFIER = lm.a.TouchEmoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = EmojiClipboard/TouchBarPrivateApi.h;
@@ -384,7 +384,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/EmojiClipboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = lm.a.EmojiClipboard;
+				PRODUCT_BUNDLE_IDENTIFIER = lm.a.TouchEmoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = EmojiClipboard/TouchBarPrivateApi.h;
@@ -395,7 +395,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12FBD1171F064CFA00E2F644 /* Build configuration list for PBXProject "EmojiClipboard" */ = {
+		12FBD1171F064CFA00E2F644 /* Build configuration list for PBXProject "Touch Emoji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12FBD1291F064CFA00E2F644 /* Debug */,
@@ -404,7 +404,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		12FBD12B1F064CFA00E2F644 /* Build configuration list for PBXNativeTarget "EmojiClipboard" */ = {
+		12FBD12B1F064CFA00E2F644 /* Build configuration list for PBXNativeTarget "Touch Emoji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				12FBD12C1F064CFA00E2F644 /* Debug */,

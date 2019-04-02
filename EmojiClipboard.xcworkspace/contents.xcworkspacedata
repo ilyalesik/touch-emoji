@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:EmojiClipboard.xcodeproj">
+      location = "group:/Users/ilialesik/Workspace/emoji-clipboard/Touch Emoji.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
