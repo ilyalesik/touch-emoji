@@ -19,6 +19,9 @@
 		12FBD1371F06769700E2F644 /* Scrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FBD1361F06769700E2F644 /* Scrubber.swift */; };
 		3F497D062242D2EE007827D1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3F497D052242D2EE007827D1 /* Podfile */; };
 		3F69684D223EB6DB00A7021E /* SupportNSTouchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69684C223EB6DB00A7021E /* SupportNSTouchBar.swift */; };
+		3FEA526C2254022C0021AA46 /* touch-emoji-foods-screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA52692254022C0021AA46 /* touch-emoji-foods-screenshot.png */; };
+		3FEA526D2254022C0021AA46 /* touch-emoji-icon-screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA526A2254022C0021AA46 /* touch-emoji-icon-screenshot.png */; };
+		3FEA526E2254022C0021AA46 /* touch-emoji-recent-screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FEA526B2254022C0021AA46 /* touch-emoji-recent-screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +54,9 @@
 		3F497D052242D2EE007827D1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F69684C223EB6DB00A7021E /* SupportNSTouchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportNSTouchBar.swift; sourceTree = "<group>"; };
 		3FEA52682248E66F0021AA46 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "/Users/ilialesik/Workspace/emoji-clipboard/README.md"; sourceTree = "<absolute>"; };
+		3FEA52692254022C0021AA46 /* touch-emoji-foods-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-emoji-foods-screenshot.png"; sourceTree = "<group>"; };
+		3FEA526A2254022C0021AA46 /* touch-emoji-icon-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-emoji-icon-screenshot.png"; sourceTree = "<group>"; };
+		3FEA526B2254022C0021AA46 /* touch-emoji-recent-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "touch-emoji-recent-screenshot.png"; sourceTree = "<group>"; };
 		8B68746295DDD6094E6D460A /* libPods-EmojiClipboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiClipboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FD0791605AF010B36FAF05 /* Pods-EmojiClipboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmojiClipboard.release.xcconfig"; path = "Target Support Files/Pods-EmojiClipboard/Pods-EmojiClipboard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +77,9 @@
 		12FBD1131F064CFA00E2F644 = {
 			isa = PBXGroup;
 			children = (
+				3FEA52692254022C0021AA46 /* touch-emoji-foods-screenshot.png */,
+				3FEA526A2254022C0021AA46 /* touch-emoji-icon-screenshot.png */,
+				3FEA526B2254022C0021AA46 /* touch-emoji-recent-screenshot.png */,
 				3FEA52682248E66F0021AA46 /* README.md */,
 				3F497D052242D2EE007827D1 /* Podfile */,
 				12FBD11E1F064CFA00E2F644 /* TouchEmoji */,
@@ -187,8 +196,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEA526C2254022C0021AA46 /* touch-emoji-foods-screenshot.png in Resources */,
+				3FEA526E2254022C0021AA46 /* touch-emoji-recent-screenshot.png in Resources */,
 				3F497D062242D2EE007827D1 /* Podfile in Resources */,
 				12FBD1241F064CFA00E2F644 /* Assets.xcassets in Resources */,
+				3FEA526D2254022C0021AA46 /* touch-emoji-icon-screenshot.png in Resources */,
 				12FBD1271F064CFA00E2F644 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
