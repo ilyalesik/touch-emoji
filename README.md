@@ -1,6 +1,6 @@
 # Touch Emoji
 
-> Emoji panel for MacBook Pro Touch Bar.
+> Emoji picker for MacBook Pro Touch Bar.
 
 Launch an application adds 😀 icon to Control Strip:
 ![Icon at control strip](touch-emoji-icon-screenshot.png)
