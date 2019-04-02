@@ -3,61 +3,61 @@
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "icon-emoji2-16.png",
+      "filename" : "Emoji-16x16 (1).png",
       "scale" : "1x"
     },
     {
       "size" : "16x16",
       "idiom" : "mac",
-      "filename" : "icon-emoji2-33.png",
+      "filename" : "Emoji-32x32 (1)-1.png",
       "scale" : "2x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "icon-emoji2-32.png",
+      "filename" : "Emoji-32x32 (1).png",
       "scale" : "1x"
     },
     {
       "size" : "32x32",
       "idiom" : "mac",
-      "filename" : "icon-emoji2-64.png",
+      "filename" : "Emoji-64x64 (1).png",
       "scale" : "2x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "icon-emoji2-128.png",
+      "filename" : "Emoji-128x128.png",
       "scale" : "1x"
     },
     {
       "size" : "128x128",
       "idiom" : "mac",
-      "filename" : "icon-emoji2-257.png",
+      "filename" : "Emoji-256x256 (1)-1.png",
       "scale" : "2x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "icon-emoji2-256.png",
+      "filename" : "Emoji-256x256 (1).png",
       "scale" : "1x"
     },
     {
       "size" : "256x256",
       "idiom" : "mac",
-      "filename" : "icon-emoji2-513.png",
+      "filename" : "Emoji-512x512 (1)-1.png",
       "scale" : "2x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "icon-emoji2-512.png",
+      "filename" : "Emoji-512x512 (1).png",
       "scale" : "1x"
     },
     {
       "size" : "512x512",
       "idiom" : "mac",
-      "filename" : "icon-emoji2-1024.png",
+      "filename" : "Emoji-1024x1024 (1).png",
       "scale" : "2x"
     }
   ],
