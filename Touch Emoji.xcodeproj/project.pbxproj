@@ -73,7 +73,7 @@
 			children = (
 				3FEA52682248E66F0021AA46 /* README.md */,
 				3F497D052242D2EE007827D1 /* Podfile */,
-				12FBD11E1F064CFA00E2F644 /* EmojiClipboard */,
+				12FBD11E1F064CFA00E2F644 /* TouchEmoji */,
 				12FBD11D1F064CFA00E2F644 /* Products */,
 				12FBD12E1F064DEE00E2F644 /* Frameworks */,
 				DABA71924E9062DAAD97829F /* Pods */,
@@ -88,7 +88,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		12FBD11E1F064CFA00E2F644 /* EmojiClipboard */ = {
+		12FBD11E1F064CFA00E2F644 /* TouchEmoji */ = {
 			isa = PBXGroup;
 			children = (
 				3F69684C223EB6DB00A7021E /* SupportNSTouchBar.swift */,
@@ -103,7 +103,7 @@
 				12FBD1311F064E2E00E2F644 /* TouchBarPrivateApi.h */,
 				12E5A4CF1F0ED58300ACD0D0 /* SwiftFSWatcher.swift */,
 			);
-			path = EmojiClipboard;
+			path = TouchEmoji;
 			sourceTree = "<group>";
 		};
 		12FBD12E1F064DEE00E2F644 /* Frameworks */ = {
@@ -355,13 +355,13 @@
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 					"$(PROJECT_DIR)/EmojiClipboard",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/EmojiClipboard/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TouchEmoji/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = lm.a.TouchEmoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = EmojiClipboard/TouchBarPrivateApi.h;
+				SWIFT_OBJC_BRIDGING_HEADER = TouchEmoji/TouchBarPrivateApi.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -381,13 +381,13 @@
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 					"$(PROJECT_DIR)/EmojiClipboard",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/EmojiClipboard/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TouchEmoji/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = lm.a.TouchEmoji;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = EmojiClipboard/TouchBarPrivateApi.h;
+				SWIFT_OBJC_BRIDGING_HEADER = TouchEmoji/TouchBarPrivateApi.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
