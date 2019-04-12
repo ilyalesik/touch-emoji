@@ -4,7 +4,8 @@
 
 > Emoji picker for MacBook Pro Touch Bar.
 
-[![GitHub release](https://img.shields.io/github/release/ilyalesik/touch-emoji.svg)](https://github.com/ilyalesik/touch-emoji/releases)
+[![GitHub release](https://img.shields.io/github/release/lm-a/touch-emoji.svg)](https://github.com/lm-a/touch-emoji/releases)
+[![license](https://img.shields.io/github/license/lm-a/touch-emoji.svg)](https://github.com/lm-a/touch-emoji/blob/master/LICENSE) ![minimal system requirements](https://img.shields.io/badge/required-macOS%2010.12.2-blue.svg) 
 
 Launch an application adds 😀 icon to Control Strip:
 ![Icon at control strip](touch-emoji-icon-screenshot.png)
