@@ -10,3 +10,8 @@ Launch an application adds 😀 icon to Control Strip:
 Click to 😀 icon will open scrubber (swipeable panel) with emojis:
 ![Recent emoji](touch-emoji-recent-screenshot.png)
 Emoji click inserts it into the current open window.
+
+## Installation
+* Download [lastest release](https://github.com/lm-a/touch-emoji/releases/download/v0.2.1/Touch-Emoji-v0.2.1.zip) from github
+* Unpack arhive
+* Move `Touch Emoji` to *Applications* folder
