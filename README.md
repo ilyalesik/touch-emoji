@@ -17,7 +17,7 @@ Touching a particular emoji inserts it into the current open window.
 
 ## Installation
 * Download [lastest release](https://github.com/lm-a/touch-emoji/releases/download/v0.2.1/Touch-Emoji-v0.2.1.zip) from github
-* Unpack arhive
+* Unpack archive
 * Move `Touch Emoji` to *Applications* folder
 
 ## Troubleshooting
