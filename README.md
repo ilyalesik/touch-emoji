@@ -11,12 +11,19 @@ Launch an application adds 😀 icon to Control Strip:
 
 Click to 😀 icon will open scrubber (swipeable panel) with emojis:
 ![Recent emoji](touch-emoji-recent-screenshot.png)
-Emoji click inserts it into the current open window.
+Emoji touch inserts it into the current open window.
 
 ## Installation
 * Download [lastest release](https://github.com/lm-a/touch-emoji/releases/download/v0.2.1/Touch-Emoji-v0.2.1.zip) from github
 * Unpack arhive
 * Move `Touch Emoji` to *Applications* folder
+
+## Troubleshooting
+#### Emoji touch doesn't work:
+
+Re-tick or check a tick for access  → System Preferences → Security and Privacy → tab Privacy → Accessibility → TouchEmoji
+
+<p align="center"><img width="450" alt="Accessibility window" src="accessiblity.png"></p>
 
 ## Author
 Ilya Lesik (https://github.com/ilyalesik)
