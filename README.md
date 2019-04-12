@@ -1,3 +1,5 @@
+<p align="center"><img src="Emoji-256x256.png" width="128"></p>
+
 # Touch Emoji
 
 > Emoji picker for MacBook Pro Touch Bar.
