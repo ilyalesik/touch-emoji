@@ -15,3 +15,8 @@ Emoji click inserts it into the current open window.
 * Download [lastest release](https://github.com/lm-a/touch-emoji/releases/download/v0.2.1/Touch-Emoji-v0.2.1.zip) from github
 * Unpack arhive
 * Move `Touch Emoji` to *Applications* folder
+
+## Author
+Ilya Lesik (https://github.com/ilyalesik)
+
+This app is based on [touch-bar-emojis](https://github.com/gabriellorin/touch-bar-emojis) by Gabriel Lorin (https://github.com/gabriellorin).
