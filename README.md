@@ -7,10 +7,10 @@
 [![GitHub release](https://img.shields.io/github/release/lm-a/touch-emoji.svg)](https://github.com/lm-a/touch-emoji/releases)
 [![license](https://img.shields.io/github/license/lm-a/touch-emoji.svg)](https://github.com/lm-a/touch-emoji/blob/master/LICENSE) ![minimal system requirements](https://img.shields.io/badge/required-macOS%2010.12.2-blue.svg) 
 
-Launch an application adds the 😀 icon to Control Strip:
+Launching an application adds the 😀 icon to Control Strip:
 ![Icon at control strip](touch-emoji-icon-screenshot.png)
 
-Click to the 😀 icon will open scrubber (swipeable panel) with emojis:
+Clicking on the 😀 icon opens a swipeable panel with emojis:
 ![Recent emoji](touch-emoji-recent-screenshot.png)
 
 Touching a particular emoji inserts it into the currently open window.
