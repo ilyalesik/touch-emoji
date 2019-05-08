@@ -15,7 +15,7 @@ Clicking on the <img src="control-strip-icon.png" height="24"> icon opens a swip
 
 Touching a particular emoji inserts it into the currently open window.
 
-<a href="https://lessmess.agency/?utm_source=react-fetch-hook">
+<a href="https://lessmess.agency/?utm_source=touch-emoji">
   <img src="https://lessmess.agency/badges/sponsored_by_lessmess.svg"
        alt="Sponsored by Lessmess" width="236" height="54">
 </a>
