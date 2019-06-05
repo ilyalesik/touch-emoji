@@ -15,10 +15,7 @@ Clicking on the <img src="control-strip-icon.png" height="24"> icon opens a swip
 
 Touching a particular emoji inserts it into the currently open window.
 
-<a href="https://lessmess.agency/?utm_source=touch-emoji">
-  <img src="https://lessmess.agency/badges/sponsored_by_lessmess.svg"
-       alt="Sponsored by Lessmess" width="236" height="54">
-</a>
+[Demo](https://www.youtube.com/watch?v=YSZSjz9Lp3Q)
 
 ## Installation
 * Download [latest release](https://github.com/lm-a/touch-emoji/releases/download/v0.2.1/Touch-Emoji-v0.2.1.zip) from GitHub
@@ -36,3 +33,9 @@ Re-tick or check a tick for access  → System Preferences → Security and P
 Ilya Lesik (https://github.com/ilyalesik)
 
 This app is based on [touch-bar-emojis](https://github.com/gabriellorin/touch-bar-emojis) by Gabriel Lorin (https://github.com/gabriellorin).
+
+## Sponsored
+<a href="https://lessmess.agency/?utm_source=touch-emoji">
+  <img src="https://lessmess.agency/badges/sponsored_by_lessmess.svg"
+       alt="Sponsored by Lessmess" width="236" height="54">
+</a>
